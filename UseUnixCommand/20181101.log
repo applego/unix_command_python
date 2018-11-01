@@ -1,0 +1,159 @@
+2018-11-01 15:36:03,891 - __main__ - ERROR - Traceback
+Stack (most recent call last):
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd_launcher.py", line 111, in <module>
+    vspd.debug(filename, port_num, debug_id, debug_options, run_as)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 2681, in debug
+    exec_file(file, globals_obj)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 119, in exec_file
+    exec_code(code, file, global_variables)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 95, in exec_code
+    exec(code_obj, global_variables)
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 117, in <module>
+    main()
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 113, in main
+    logger.error('Traceback',stack_info = True)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 929, in trace_func
+    return self._events[event](frame, arg)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 1131, in handle_line
+    self.block_maybe_attach()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 1235, in block_maybe_attach
+    self.block(block_cond)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 1283, in block
+    self.unblock_work()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 1309, in <lambda>
+    self.schedule_work(lambda : self.run_locally(text, cur_frame, execution_id, frame_kind, print_result, repr_kind))
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 1361, in run_locally
+    res = eval(code, cur_frame.f_globals, self.get_locals(cur_frame, frame_kind))
+  File "<debug input>", line 1, in <module>
+2018-11-01 15:36:04,077 - __main__ - ERROR - Traceback
+Stack (most recent call last):
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd_launcher.py", line 111, in <module>
+    vspd.debug(filename, port_num, debug_id, debug_options, run_as)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 2681, in debug
+    exec_file(file, globals_obj)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 119, in exec_file
+    exec_code(code, file, global_variables)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 95, in exec_code
+    exec(code_obj, global_variables)
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 117, in <module>
+    main()
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 113, in main
+    logger.error('Traceback',stack_info = True)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 929, in trace_func
+    return self._events[event](frame, arg)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 1131, in handle_line
+    self.block_maybe_attach()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 1235, in block_maybe_attach
+    self.block(block_cond)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 1283, in block
+    self.unblock_work()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 1309, in <lambda>
+    self.schedule_work(lambda : self.run_locally(text, cur_frame, execution_id, frame_kind, print_result, repr_kind))
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 1361, in run_locally
+    res = eval(code, cur_frame.f_globals, self.get_locals(cur_frame, frame_kind))
+  File "<debug input>", line 1, in <module>
+2018-11-01 15:36:06,128 - __main__ - ERROR - Traceback
+Stack (most recent call last):
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd_launcher.py", line 111, in <module>
+    vspd.debug(filename, port_num, debug_id, debug_options, run_as)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 2681, in debug
+    exec_file(file, globals_obj)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 119, in exec_file
+    exec_code(code, file, global_variables)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 95, in exec_code
+    exec(code_obj, global_variables)
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 117, in <module>
+    main()
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 113, in main
+    logger.error('Traceback',stack_info = True)
+2018-11-01 15:36:14,459 - __main__ - ERROR - [WinError 2] 指定されたファイルが見つかりません。
+2018-11-01 15:38:50,531 - __main__ - ERROR - Traceback
+Stack (most recent call last):
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd_launcher.py", line 111, in <module>
+    vspd.debug(filename, port_num, debug_id, debug_options, run_as)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 2681, in debug
+    exec_file(file, globals_obj)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 119, in exec_file
+    exec_code(code, file, global_variables)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 95, in exec_code
+    exec(code_obj, global_variables)
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 117, in <module>
+    main()
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 113, in main
+    logger.error('Traceback',stack_info = True)
+2018-11-01 15:38:50,535 - __main__ - ERROR - [WinError 2] 指定されたファイルが見つかりません。
+2018-11-01 15:39:35,724 - __main__ - ERROR - Traceback
+Stack (most recent call last):
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd_launcher.py", line 111, in <module>
+    vspd.debug(filename, port_num, debug_id, debug_options, run_as)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 2681, in debug
+    exec_file(file, globals_obj)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 119, in exec_file
+    exec_code(code, file, global_variables)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 95, in exec_code
+    exec(code_obj, global_variables)
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 117, in <module>
+    main()
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 113, in main
+    logger.error('Traceback',stack_info = True)
+2018-11-01 15:39:35,727 - __main__ - ERROR - [WinError 2] 指定されたファイルが見つかりません。
+2018-11-01 15:42:41,089 - __main__ - ERROR - Traceback
+Stack (most recent call last):
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd_launcher.py", line 111, in <module>
+    vspd.debug(filename, port_num, debug_id, debug_options, run_as)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 2681, in debug
+    exec_file(file, globals_obj)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 119, in exec_file
+    exec_code(code, file, global_variables)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 95, in exec_code
+    exec(code_obj, global_variables)
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 117, in <module>
+    main()
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 113, in main
+    logger.error('Traceback',stack_info = True)
+2018-11-01 15:42:41,094 - __main__ - ERROR - [WinError 2] 指定されたファイルが見つかりません。
+2018-11-01 15:43:35,861 - __main__ - ERROR - Traceback
+Stack (most recent call last):
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd_launcher.py", line 111, in <module>
+    vspd.debug(filename, port_num, debug_id, debug_options, run_as)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 2681, in debug
+    exec_file(file, globals_obj)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 119, in exec_file
+    exec_code(code, file, global_variables)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 95, in exec_code
+    exec(code_obj, global_variables)
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 117, in <module>
+    main()
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 113, in main
+    logger.error('Traceback',stack_info = True)
+2018-11-01 15:43:35,865 - __main__ - ERROR - [WinError 2] 指定されたファイルが見つかりません。
+2018-11-01 15:46:23,177 - __main__ - ERROR - Traceback
+Stack (most recent call last):
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd_launcher.py", line 111, in <module>
+    vspd.debug(filename, port_num, debug_id, debug_options, run_as)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 2681, in debug
+    exec_file(file, globals_obj)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 119, in exec_file
+    exec_code(code, file, global_variables)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 95, in exec_code
+    exec(code_obj, global_variables)
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 118, in <module>
+    main()
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 114, in main
+    logger.error('Traceback',stack_info = True)
+2018-11-01 15:46:23,180 - __main__ - ERROR - [WinError 2] 指定されたファイルが見つかりません。
+2018-11-01 15:47:11,288 - __main__ - ERROR - Traceback
+Stack (most recent call last):
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd_launcher.py", line 111, in <module>
+    vspd.debug(filename, port_num, debug_id, debug_options, run_as)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\debugger.py", line 2681, in debug
+    exec_file(file, globals_obj)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 119, in exec_file
+    exec_code(code, file, global_variables)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\Extensions\Microsoft\Python\Core\ptvsd\util.py", line 95, in exec_code
+    exec(code_obj, global_variables)
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 118, in <module>
+    main()
+  File "c:\users\常重　友佑\documents\visual studio 2017\Projects\UseUnixCommand\UseUnixCommand\UseUnixCommand.py", line 114, in main
+    logger.error('Traceback',stack_info = True)
+2018-11-01 15:47:11,292 - __main__ - ERROR - [WinError 2] 指定されたファイルが見つかりません。
